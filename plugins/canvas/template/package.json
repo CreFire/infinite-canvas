@@ -6,7 +6,7 @@
   "description": "Infinite Canvas \u63d2\u4ef6\u8d77\u6b65\u6a21\u677f(TypeScript + SDK)",
   "scripts": {
     "build": "node build.mjs",
-    "dev": "node api.js && node build.mjs --watch",
+    "dev": "node build.mjs --watch",
     "typecheck": "tsc --noEmit"
   },
   "devDependencies": {

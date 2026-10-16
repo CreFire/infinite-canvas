@@ -6,7 +6,7 @@
   "description": "Infinite Canvas 3D \u5168\u666f\u8282\u70b9\u63d2\u4ef6",
   "scripts": {
     "build": "node build.mjs",
-    "dev": "node api.js && node build.mjs --watch",
+    "dev": "node build.mjs --watch",
     "typecheck": "tsc --noEmit"
   },
   "devDependencies": {

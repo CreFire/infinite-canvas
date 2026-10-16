@@ -4,10 +4,10 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "node api.js && vite --host 0.0.0.0 --port 3000",
+    "dev": "vite --host 0.0.0.0 --port 3000",
     "build": "vite build",
     "typecheck": "tsc --noEmit",
-    "start": "node api.js && vite preview --host 0.0.0.0 --port 3000",
+    "start": "vite preview --host 0.0.0.0 --port 3000",
     "format": "prettier --write .",
     "format:check": "prettier --check ."
   },
